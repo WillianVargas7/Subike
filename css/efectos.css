@@ -1,0 +1,418 @@
+/* ========================= */
+/* RESET */
+/* ========================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========================= */
+/* BASE */
+/* ========================= */
+body{
+    font-family: 'open sans';
+    font-size: 16px;
+}
+
+a img{
+    margin-bottom: 10px;
+    border: 0;
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+header{
+    width: 100%;
+    height: 650px;
+    background-image: url(../imagenes/Foto_32.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+header .logo{
+    width: 15%;
+    margin-left: 75%;
+    margin-top: 2%;
+}
+
+.logo:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+}
+
+header .titulo{
+    margin: 80px 0 50px;
+}
+
+/* TITULOS */
+h1, h2{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-shadow: 4px 4px 4px black;
+}
+
+h1{ font-size: 65pt; }
+h2{ font-size: 30pt; }
+
+/* BOTÓN */
+.boton_1{
+    padding: 6px;
+    width: 128px;
+    font-size: 19px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #111;
+}
+
+.boton_1:hover{
+    background-color: #111;
+    color: #fff;
+    transform: scale(1.3);
+    transition-duration: 1.2s;
+}
+
+/* EFECTOS */
+.sesgoabajo, .sesgoabajo-unico{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-style: solid;
+}
+
+.sesgoabajo{
+    z-index: 10;
+    border-width: 0 0 35vh 100vw;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+/* ========================= */
+/* REDES SOCIALES */
+/* ========================= */
+.redes-sociales{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+}
+
+.redes-sociales a img{
+    width: 40px;
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+.sobre-nosotros{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.slogan{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.parrafo{
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24,16,16);
+}
+
+.acerca-de .boton_1{
+    margin: 30px 0 0 40px;
+}
+
+/* ========================= */
+/* GALERÍA */
+/* ========================= */
+.galeria ul{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria li{
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgba(52, 73, 94, 0.849);
+}
+
+.galeria img{
+    width: 150px;
+}
+
+/* MODAL */
+.modal{ display: none; }
+
+.modal:target{
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.modal h3{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.imagen img{
+    width: 500px;
+    max-width: 100%;
+    border: 7px solid #fff;
+}
+
+i{
+    color: #fff;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.cerrar{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ========================= */
+/* CARDS */
+/* ========================= */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 30%;
+    height: 350px;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(52, 73, 94, 0.849);
+}
+
+.cards video{
+    width: 150px;
+}
+
+/* ========================= */
+/* FONDO */
+/* ========================= */
+.fondo{
+    height: 900px;
+    background-image: url(../imagenes/7.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+    position: relative;
+    overflow: hidden;
+}
+
+.titulo-patrocinadores,
+.subtitulo-patrocinadores{
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-patrocinadores{
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patrocinadores{
+    font-size: 24px;
+    margin-bottom: 64px;
+}
+
+.clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cliente{
+    width: 30%;
+}
+
+.cliente img{
+    width: 100%;
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+footer{
+    background: #2c3e50;
+}
+
+.titulo-footer, .subtitulo-footer{
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-footer{ font-size: 56px; }
+.subtitulo-footer{ font-size: 16px; margin-bottom: 40px; }
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input, textarea{
+    background: rgba(37, 37, 33, .7);
+    border: none;
+    color: #fff;
+    padding: 13px;
+    margin-bottom: 16px;
+    font-family: 'open sans';
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 48%;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+}
+
+input[type="submit"]{
+    width: 96px;
+    cursor: pointer;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+@media (max-width: 768px){
+
+    header{
+        height: auto;
+        padding: 40px 20px;
+        background-attachment: scroll;
+    }
+
+    header .logo{
+        width: 120px;
+        margin: auto;
+        display: block;
+    }
+
+    h1{ font-size: 40px; }
+    h2{ font-size: 20px; }
+
+    .boton_1{
+        width: 100%;
+        max-width: 200px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .galeria ul{
+        flex-direction: column;
+    }
+
+    .galeria img{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .imagen img{
+        width: 90%;
+        height: auto;
+    }
+
+    i{ font-size: 30px; }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+        height: auto;
+    }
+
+    .cards video{
+        width: 100%;
+    }
+
+    .clientes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cliente{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"]{
+        width: 100%;
+    }
+
+    .redes-sociales{
+        right: 50%;
+        transform: translateX(50%);
+        bottom: 10px;
+        flex-direction: row;
+        background: rgba(0,0,0,0.5);
+        padding: 8px 12px;
+        border-radius: 20px;
+    }
+}
