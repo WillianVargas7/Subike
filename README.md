@@ -45,11 +45,11 @@ imagenes/
 ## 🖥 Versión Web
 
 <p align="center">
-  <img src="imagenes/Inicio-web.jpeg" width="600">
+  <img src="imagenes/README-imagenes/Inicio-web.jpeg" width="600">
   <br><br>
-  <img src="imagenes/Galeria-web.jpeg" width="600">
+  <img src="imagenes/README-imagenes/Galeria-web.jpeg" width="600">
   <br><br>
-  <img src="imagenes/Contacto-web.jpeg" width="600">
+  <img src="imagenes/README-imagenes/Contacto-web.jpeg" width="600">
 </p>
 
 ---
@@ -57,11 +57,11 @@ imagenes/
 ## 📱 Versión Móvil
 
 <p align="center">
-  <img src="imagenes/Inicio-movil.jpeg" width="300">
-  <img src="imagenes/Galeria-movil.jpeg" width="300">
+  <img src="imagenes/README-imagenes/Inicio-movil.jpeg" width="300">
+  <img src="imagenes/README-imagenes/Galeria-movil.jpeg" width="300">
   <br><br>
-  <img src="imagenes/Contacto-movil.jpeg" width="300">
-  <img src="imagenes/Video-movil.jpeg" width="300">
+  <img src="imagenes/README-imagenes/Contacto-movil.jpeg" width="300">
+  <img src="imagenes/README-imagenes/Video-movil.jpeg" width="300">
 </p>
 
 ---
