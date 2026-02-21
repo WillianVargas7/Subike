@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Entorno
+.env
+
+# VSCode settings
+.vscode/
+
+# Windows system
+desktop.ini
+
+# Backend no relacionado
+subike-backend/
